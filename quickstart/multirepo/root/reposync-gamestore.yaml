@@ -10,13 +10,13 @@ spec:
   sourceFormat: unstructured
   git:
     # If you fork this repo, change the url to point to your fork
-    repo: https://github.com/GoogleCloudPlatform/anthos-config-management-samples
+    repo: git@github.com:tonyzhc/anthos-config-management-samples.git
     # If you move the configs to a different branch, update the branch here
     branch: init
     dir: quickstart/multirepo/namespaces/gamestore
     # We recommend securing your source repository.
     # Other supported auth: `ssh`, `cookiefile`, `token`, `gcenode`.
-    auth: none
+    auth: ssh
     # Refer to a Secret you create to hold the private key, cookiefile, or token.
-    # secretRef:
-    #   name: SECRET_NAME
+    secretRef:
+      name: git-ssh-key
