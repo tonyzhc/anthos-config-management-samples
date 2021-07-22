@@ -7,6 +7,9 @@ subjects:
 - kind: ServiceAccount
   name: ns-reconciler-gamestore
   namespace: config-management-system
+- kind: User
+  name: admin@gamestore.com
+  namespace: rbac.authorization.k8s.io
 roleRef:
   kind: ClusterRole
   name: admin
