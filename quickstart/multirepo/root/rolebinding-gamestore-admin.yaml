@@ -15,7 +15,7 @@
 kind: RoleBinding
 apiVersion: rbac.authorization.k8s.io/v1
 metadata:
-  name: gamestore-admin
+  name: gamestore-admin-TEST
   namespace: gamestore
 subjects:
 - kind: ServiceAccount
