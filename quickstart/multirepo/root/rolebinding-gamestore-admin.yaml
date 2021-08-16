@@ -8,9 +8,6 @@ subjects:
   name: ns-reconciler-gamestore
   namespace: config-management-system
 - kind: User
-  name: admin@gamestore.com
-  namespace: rbac.authorization.k8s.io
-- kind: User
   name: AnotherAdmin@gamestore.com
   namespace: rbac.authorization.k8s.io
 roleRef:
