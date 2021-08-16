@@ -24,6 +24,9 @@ subjects:
 - kind: User
   name: admin@gamestore.com
   apiGroup: rbac.authorization.k8s.io
+- kind: AnotherUser
+  name: AnotherAdmin@gamestore.com
+  apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: ClusterRole
   name: admin
